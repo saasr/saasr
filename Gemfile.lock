@@ -315,7 +315,7 @@ GEM
     rubocop-performance (1.22.1)
       rubocop (>= 1.48.1, < 2.0)
       rubocop-ast (>= 1.31.1, < 2.0)
-    rubocop-rails (2.26.2)
+    rubocop-rails (2.27.0)
       activesupport (>= 4.2.0)
       rack (>= 1.1)
       rubocop (>= 1.52.0, < 2.0)
@@ -418,7 +418,7 @@ DEPENDENCIES
   rubocop-faker (~> 1.1)
   rubocop-minitest (~> 0.36.0)
   rubocop-performance (~> 1.22)
-  rubocop-rails (~> 2.26)
+  rubocop-rails (~> 2.27)
   rubocop-rake (~> 0.6.0)
   saasr!
   selenium-webdriver (~> 4.25)
