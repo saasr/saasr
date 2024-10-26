@@ -25,7 +25,7 @@ end
 group :development do
   gem 'web-console', '~> 4.2'
 
-  gem 'erb_lint', '~> 0.6.0', require: false
+  gem 'erb_lint', '~> 0.7.0', require: false
   gem 'rubocop', '~> 1.66', require: false
   gem 'rubocop-capybara', '~> 2.21', require: false
   gem 'rubocop-factory_bot', '~> 2.26', require: false
