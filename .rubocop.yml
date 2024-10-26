@@ -1,0 +1,60 @@
+require:
+  - rubocop-capybara
+  - rubocop-factory_bot
+  - rubocop-faker
+  - rubocop-minitest
+  - rubocop-performance
+  - rubocop-rails
+  - rubocop-rake
+
+AllCops:
+  NewCops: enable
+  Exclude:
+    - "bin/*"
+    - "coverage/**/*"
+    - "test/dummy/bin/*"
+    - "test/dummy/db/*schema.rb"
+    - "test/dummy/log/**/*"
+    - "test/dummy/public/**/*"
+    - "test/dummy/storage/**/*"
+    - "test/dummy/tmp/**/*"
+
+Metrics:
+  Enabled: false
+
+Minitest/MultipleAssertions:
+  Max: 5
+
+Naming/FileName:
+  Exclude:
+    - "config/initializers/*"
+    - "test/dummy/config/initializers/*"
+
+Rails/ApplicationController:
+  Enabled: false
+
+Rails/ApplicationJob:
+  Enabled: false
+
+Rails/ApplicationMailer:
+  Enabled: false
+
+Rails/ApplicationRecord:
+  Enabled: false
+
+Rails/DynamicFindBy:
+  AllowedMethods:
+    - find_by_sql
+    - find_by_token_for
+
+Style/Documentation:
+  Enabled: false
+
+Style/ClassAndModuleChildren:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  EnforcedStyle: never
+
+Style/MultilineIfModifier:
+  Enabled: false

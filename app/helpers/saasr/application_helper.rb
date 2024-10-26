@@ -1,0 +1,2 @@
+module Saasr::ApplicationHelper
+end

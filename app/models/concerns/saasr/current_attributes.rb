@@ -1,0 +1,2 @@
+module Saasr::CurrentAttributes
+end
