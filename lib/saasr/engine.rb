@@ -8,6 +8,8 @@ require 'tailwindcss-rails'
 
 module Saasr
   class Engine < Rails::Engine
+    engine_name 'saasr'
+
     config.saasr = ActiveSupport::OrderedOptions.new
 
     config.after_initialize do |app|
